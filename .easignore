@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.*
+!.env.example
+*.backup
+# Include Firebase Android config in the EAS build archive only; do not commit it to the public GitHub repository.
+!google-services.json
