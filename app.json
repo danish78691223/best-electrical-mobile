@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BEST ELECTRICAL",
+    "slug": "best-electrical",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#111e4a"
+    },
+    "android": {
+      "package": "com.bestelectrical.shop"
+    },
+    "ios": {
+      "bundleIdentifier": "com.best-electrical.electricals"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#17285f",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6d73f035-28e2-4075-9bd8-61e978746c90"
+      }
+    },
+    "owner": "webs360"
+  }
+}
