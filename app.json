@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "BEST ELECTRICAL",
@@ -5,15 +6,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": {
-      "backgroundColor": "#111e4a"
-    },
-    "android": {
-      "package": "com.bestelectrical.shop"
-    },
-    "ios": {
-      "bundleIdentifier": "com.best-electrical.electricals"
-    },
     "plugins": [
       [
         "expo-notifications",
@@ -22,13 +14,21 @@
           "color": "#17285f",
           "defaultChannel": "default"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-status-bar"
     ],
+    "android": {
+      "package": "com.bestelectrical.shop",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.best-electrical.electricals"
+    },
     "extra": {
       "eas": {
         "projectId": "6d73f035-28e2-4075-9bd8-61e978746c90"
       }
-    },
-    "owner": "webs360"
+    }
   }
 }

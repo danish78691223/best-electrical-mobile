@@ -1,5 +1,5 @@
 {
-  "name": "voltmart-mobile",
+  "name": "best-electrical-mobile",
   "version": "1.0.0",
   "private": true,
   "main": "expo/AppEntry",
@@ -9,17 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/metro-runtime": "~4.0.1",
-    "@expo/vector-icons": "^14.0.4",
-    "expo": "~52.0.30",
-    "expo-constants": "~17.0.8",
-    "expo-device": "~7.0.3",
-    "expo-notifications": "~0.29.14",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-native": "0.76.6",
-    "react-native-web": "~0.19.13"
-  },
-  "devDependencies": {}
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "^57.0.27",
+    "expo-constants": "~57.0.21",
+    "expo-dev-client": "~57.0.19",
+    "expo-device": "~57.0.2",
+    "expo-font": "~57.0.4",
+    "expo-notifications": "~57.0.22",
+    "expo-splash-screen": "~57.0.9",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  }
 }
